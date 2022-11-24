@@ -1,0 +1,13 @@
+{
+    "/api/*": {
+    "target": "http://10.55.28.158:8080/",
+    "secure": false,
+    "changeOrigin": true
+    },
+    "/v1/*": {
+        "target": "http://10.55.28.159:8080/",
+        "secure": false,
+        "changeOrigin": true
+        
+        }
+    }
